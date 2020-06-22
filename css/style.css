@@ -10,12 +10,34 @@ nav {
 
 .jumbotron {
   background-color: #dcf0fb;
+  background-image: url("../images/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: medium;
+}
+
+.btn.btn-success {
+  background-color: #4640de;
+  border: none;
+  border-radius: none;
+}
 header {
   background: #dcf0fb;
 }
 
 #explore {
   background-color: #f6f7fb;
+}
+
+.category {
+  height: 8rem;
+  background-color: #ffffff;
+  margin: 5px;
 }
